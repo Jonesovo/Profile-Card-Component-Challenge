@@ -1,14 +1,10 @@
 body {
-    background-color: aqua;
+    background-color:  hsl(185, 75%, 39%);
 }
 
 .attribution {
     font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%);
-}
-
-.profile {
-    
 }
 
 .log {
