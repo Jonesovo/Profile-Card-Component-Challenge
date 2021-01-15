@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+    color: hsl(228, 45%, 44%);
+}
+
+.profile {
+    
+}
+
+.log {
+    float: left;
+    width: 7.3%;
+    text-align: center;
+}
