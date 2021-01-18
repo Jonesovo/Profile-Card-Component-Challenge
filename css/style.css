@@ -1,6 +1,7 @@
 body {
     background-color:  hsl(185, 75%, 39%);
     font-family: 'Kumbh Sans', sans-serif;
+    
 }
 
 
@@ -8,11 +9,22 @@ h1 {
     font-size: 20px;
     position: relative;
     bottom: 55px;
+   
+}
+
+hr {
+    color: hsl(0, 0%, 59%);
+    position: relative;
+    bottom: 50px;
+
 }
 
 span {
     font-weight: lighter;
+    color: hsl(227, 10%, 46%);
 }
+
+
 
 .attribution {
     font-size: 11px; text-align: center;
@@ -22,6 +34,7 @@ span {
 
 
 #location {
+    color: hsl(227, 10%, 46%);
     position: relative;
     bottom: 60px;
    
@@ -35,7 +48,7 @@ span {
     font-weight: bold;
     text-align: center;
     padding-left: 50px;
-    padding-top: 30px;
+    padding-top: 40px;
     line-height: 1.4;
 }
 
@@ -46,7 +59,7 @@ span {
     margin-top: 150px;
     text-align: center;
     width: 350px;
-    height: 350px;
+    height: 370px;
 }
 .top-image {
     border: 6px solid #ffffff;
@@ -61,4 +74,25 @@ span {
     border-top-right-radius: 15px;
     position: relative;
     bottom: 112px;
+}
+
+.top-bubble {
+    position: absolute;
+    right: 700px;
+    bottom: 200px;
+    z-index: -1;
+
+    
+}
+
+.bottom-bubble {
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .top-bubble {position: static; }
+    .bottom-bubble {position: static;}
 }
