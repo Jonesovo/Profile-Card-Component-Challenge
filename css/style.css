@@ -95,6 +95,10 @@ span {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        overflow: hidden;
+    }
+
     .top-bubble {
         position: absolute;
         right: 250px;
